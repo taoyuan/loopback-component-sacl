@@ -1,0 +1,4 @@
+{
+  "21394c6ee65c42964b29a85123939c18": "ACCESS denied: Where condition \"{0}\" is require",
+  "7cf8ec3858da64cb1aff894570310d13": "ACCESS denied: Model {0} has no relation {1} to owner"
+}

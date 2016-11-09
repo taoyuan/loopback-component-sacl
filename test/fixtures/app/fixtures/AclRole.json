@@ -1,0 +1,48 @@
+[
+	{
+		"id": "admin",
+		"name": "admin",
+		"scopeType": null,
+		"scopeId": null
+	},
+	{
+		"id": "roleAdminA",
+		"name": "admin",
+		"scopeType": "Store",
+		"scopeId": "A",
+		"parentIds": ["roleManagerA"]
+	},
+	{
+		"id": "roleManagerA",
+		"name": "manager",
+		"scopeType": "Store",
+		"scopeId": "A",
+		"parentIds": ["roleMemberA"]
+	},
+	{
+		"id": "roleMemberA",
+		"name": "member",
+		"scopeType": "Store",
+		"scopeId": "A"
+	},
+	{
+		"id": "roleAdminB",
+		"name": "admin",
+		"scopeType": "Store",
+		"scopeId": "B",
+		"parentIds": ["roleManagerB"]
+	},
+	{
+		"id": "roleManagerB",
+		"name": "manager",
+		"scopeType": "Store",
+		"scopeId": "B",
+		"parentIds": ["roleMemberB"]
+	},
+	{
+		"id": "roleMemberB",
+		"name": "member",
+		"scopeType": "Store",
+		"scopeId": "B"
+	}
+]

@@ -1,0 +1,19 @@
+[{
+	"userId": "userAdminA",
+	"roleId": "roleAdminA"
+}, {
+	"userId": "userManagerA",
+	"roleId": "roleManagerA"
+}, {
+	"userId": "userMemberA",
+	"roleId": "roleMemberA"
+}, {
+	"userId": "userAdminB",
+	"roleId": "roleAdminB"
+}, {
+	"userId": "userManagerB",
+	"roleId": "roleManagerB"
+}, {
+	"userId": "userMemberB",
+	"roleId": "roleMemberB"
+}]

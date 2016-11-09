@@ -1,0 +1,66 @@
+{
+  "21394c6ee65c42964b29a85123939c18": [
+    "g.f:lib/aclor.js:192"
+  ],
+  "7cf8ec3858da64cb1aff894570310d13": [
+    "g.f:lib/aclor.js:190"
+  ],
+  "---------------------------------------------------------------------": [
+    "logger.debug:lib/aclor.js:211",
+    "logger.debug:lib/aclor.js:256"
+  ],
+  "ACCESS observer - Attaching access observer to": [
+    "logger.debug:lib/aclor.js:137"
+  ],
+  "ACCESS observer - Modified query for model %s: %j": [
+    "logger.debug:lib/aclor.js:160"
+  ],
+  "ACCESS observer - Observing access for": [
+    "logger.debug:lib/aclor.js:143"
+  ],
+  "ACCESS observer - appending to query:": [
+    "logger.debug:lib/aclor.js:154"
+  ],
+  "Determined current owner: %j, from model: %s, with id: %s, for method: %s": [
+    "logger.debug:lib/aclor.js:335"
+  ],
+  "Determined current owner: %j, from remoting incoming data for model %s, for method %s": [
+    "logger.debug:lib/aclor.js:340"
+  ],
+  "Determined target owner: %j, from incoming data for model: %s, for method: %s": [
+    "logger.debug:lib/aclor.js:350"
+  ],
+  "Fetching current owner for model: %s, with id: %s, for method: %s": [
+    "logger.debug:lib/aclor.js:330"
+  ],
+  "Role": [
+    "registry.getModelByType:lib/aclor.js:207"
+  ],
+  "SACL LOAD PERMISSIONS - loaded actions \"%s\": %j": [
+    "logger.debug:lib/aclor.js:49"
+  ],
+  "SACL LOAD PERMISSIONS - loaded all permissions successfully": [
+    "logger.debug:lib/aclor.js:52"
+  ],
+  "SACL LOAD PERMISSIONS - loading permissions from models: %j": [
+    "logger.debug:lib/aclor.js:40"
+  ],
+  "SACL ROLE RESOLVER - Attempting save into new target owner, User %s is%s allowed in target owner %j": [
+    "logger.debug:lib/aclor.js:249"
+  ],
+  "SACL ROLE RESOLVER - Hitting role resolver for: %s.%s": [
+    "logger.debug:lib/aclor.js:212"
+  ],
+  "SACL ROLE RESOLVER - User %s is%s allowed in owner %j": [
+    "logger.debug:lib/aclor.js:244"
+  ],
+  "access": [
+    "Model.observe:lib/aclor.js:138"
+  ],
+  "initializing component": [
+    "debug:lib/index.js:11"
+  ],
+  "loopback-component-sacl requires loopback 2.0 or newer": [
+    "Error:lib/index.js:18"
+  ]
+}

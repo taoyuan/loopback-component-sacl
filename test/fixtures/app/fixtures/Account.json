@@ -1,0 +1,41 @@
+[{
+	"id": "admin",
+	"username": "admin",
+	"email": "admin@bitbitgo.com",
+	"password": "password"
+}, {
+	"id": "generalUser",
+	"username": "generalUser",
+	"email": "generalUser@bitbitgo.com",
+	"password": "password"
+}, {
+	"id": "userAdminA",
+	"username": "userAdminA",
+	"email": "userAdminA@bitbitgo.com",
+	"password": "password"
+}, {
+	"id": "userManagerA",
+	"username": "userManagerA",
+	"email": "userManagerA@bitbitgo.com",
+	"password": "password"
+}, {
+	"id": "userMemberA",
+	"username": "userMemberA",
+	"email": "userMemberA@bitbitgo.com",
+	"password": "password"
+}, {
+	"id": "userAdminB",
+	"username": "userAdminB",
+	"email": "userAdminB@bitbitgo.com",
+	"password": "password"
+}, {
+	"id": "userManagerB",
+	"username": "userManagerB",
+	"email": "userManagerB@bitbitgo.com",
+	"password": "password"
+}, {
+	"id": "userMemberB",
+	"username": "userMemberB",
+	"email": "userMemberB@bitbitgo.com",
+	"password": "password"
+}]

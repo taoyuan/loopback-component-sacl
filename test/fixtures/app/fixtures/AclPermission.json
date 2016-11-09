@@ -1,0 +1,44 @@
+[
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleMemberA",
+		"resourceType": "Store",
+		"resourceId": "A",
+		"actions": ["READ"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleManagerA",
+		"resourceType": "Store",
+		"resourceId": "A",
+		"actions": ["MANAGE"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleAdminA",
+		"resourceType": "Store",
+		"resourceId": "A",
+		"actions": ["MANAGE"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleMemberB",
+		"resourceType": "Store",
+		"resourceId": "B",
+		"actions": ["READ"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleManagerB",
+		"resourceType": "Store",
+		"resourceId": "B",
+		"actions": ["MANAGE", "PRODUCT:READ", "PRODUCT:MANAGE"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleAdminB",
+		"resourceType": "Store",
+		"resourceId": "B",
+		"actions": ["MANAGE"]
+	}
+]

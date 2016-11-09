@@ -1,0 +1,19 @@
+{
+	"loopback-component-explorer": {
+		"mountPath": "/explorer"
+	},
+	"../../../../": {
+		"ds": "db",
+		"userModel": "Account",
+		"owners": ["Store"],
+		"rel": "store"
+	},
+	"loopback-component-fixtures": {
+		"loadFixturesOnStartup": true,
+		"environments": [
+			"development",
+			"test"
+		],
+		"fixturesPath": "../fixtures/"
+	}
+}

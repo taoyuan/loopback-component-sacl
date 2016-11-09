@@ -1,0 +1,17 @@
+{
+	"name": "Account",
+	"base": "User",
+	"idInjection": true,
+	"options": {
+		"validateUpsert": true,
+		"saltWorkFactor": 1
+	},
+	"properties": {
+		"id": {
+			"type": "string",
+			"id": true,
+			"required": true
+		}
+	},
+	"validations": []
+}

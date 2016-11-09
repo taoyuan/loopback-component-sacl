@@ -1,0 +1,72 @@
+{
+  "lib/aclor.js": {
+    "40": [
+      "logger.debug('SACL LOAD PERMISSIONS - loading permissions from models: %j', ... )"
+    ],
+    "49": [
+      "logger.debug('SACL LOAD PERMISSIONS - loaded actions \"%s\": %j', ... )"
+    ],
+    "52": [
+      "logger.debug('SACL LOAD PERMISSIONS - loaded all permissions successfully')"
+    ],
+    "137": [
+      "logger.debug('ACCESS observer - Attaching access observer to')"
+    ],
+    "138": [
+      "Model.observe('access')"
+    ],
+    "143": [
+      "logger.debug('ACCESS observer - Observing access for')"
+    ],
+    "154": [
+      "logger.debug('ACCESS observer - appending to query:')"
+    ],
+    "160": [
+      "logger.debug('ACCESS observer - Modified query for model %s: %j', ... )"
+    ],
+    "190": [
+      "g.f('7cf8ec3858da64cb1aff894570310d13')"
+    ],
+    "192": [
+      "g.f('21394c6ee65c42964b29a85123939c18')"
+    ],
+    "207": [
+      "registry.getModelByType('Role')"
+    ],
+    "211": [
+      "logger.debug('---------------------------------------------------------------------')"
+    ],
+    "212": [
+      "logger.debug('SACL ROLE RESOLVER - Hitting role resolver for: %s.%s', ... )"
+    ],
+    "244": [
+      "logger.debug('SACL ROLE RESOLVER - User %s is%s allowed in owner %j', ... )"
+    ],
+    "249": [
+      "logger.debug('SACL ROLE RESOLVER - Attempting save into new target owner, User %s is%s allowed in target owner %j', ... )"
+    ],
+    "256": [
+      "logger.debug('---------------------------------------------------------------------')"
+    ],
+    "330": [
+      "logger.debug('Fetching current owner for model: %s, with id: %s, for method: %s', ... )"
+    ],
+    "335": [
+      "logger.debug('Determined current owner: %j, from model: %s, with id: %s, for method: %s', ... )"
+    ],
+    "340": [
+      "logger.debug('Determined current owner: %j, from remoting incoming data for model %s, for method %s', ... )"
+    ],
+    "350": [
+      "logger.debug('Determined target owner: %j, from incoming data for model: %s, for method: %s', ... )"
+    ]
+  },
+  "lib/index.js": {
+    "11": [
+      "debug('initializing component')"
+    ],
+    "18": [
+      "Error('loopback-component-sacl requires loopback 2.0 or newer')"
+    ]
+  }
+}
