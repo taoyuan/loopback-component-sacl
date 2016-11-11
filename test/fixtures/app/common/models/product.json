@@ -39,8 +39,32 @@
 			"permission": "ALLOW"
 		}
 	],
-	"security": {
 
+	"security": {
+		"actions": {
+			"read": "查看商品",
+			"write": {
+				"title": "编辑商品",
+				"methods": [
+					"create",
+					"updateAttributes",
+					"upsert"
+				]
+			},
+			"manage": "管理商品"
+		},
+		"default-permissions": {
+			"member": [
+				"read"
+			],
+			"manager": [
+				"write",
+				"manage"
+			],
+			"admin": [
+				"*"
+			]
+		}
 	},
 	"methods": {}
 }

@@ -49,54 +49,45 @@
 		}
 	],
 	"security": {
-		"actions": [
-			"read",
-			"write",
-			"manage"
-		],
-		"permissions": [
-			{
-				"action": "WRITE",
+		"actions": {
+			"read": "查看店铺",
+			"write": {
+				"title": "编辑店铺",
 				"methods": [
 					"create",
 					"updateAttributes",
 					"upsert"
 				]
-			}
-		],
-		"roles": [
-			{
-				"name": "member",
-				"title": "成员",
-				"permissions": [
-					"read",
-					"invoice:read",
-					"transaction:read",
-					"product:read"
+			},
+			"manage": "管理店铺"
+		},
+		"roles": {
+			"member": {
+				"title": "店铺成员",
+				"actions": [
+					"read"
 				]
 			},
-			{
-				"name": "manager",
-				"title": "总监/经理",
-				"permissions": [
+			"manager": {
+				"title": "店铺经理",
+				"actions": [
 					"write",
-					"manage",
-					"invoice:read",
-					"invoice:write",
-					"transaction:read",
-					"transaction:write",
-					"product:read",
-					"product:write"
+					"manage"
+				],
+				"inherits": [
+					"member"
 				]
 			},
-			{
-				"name": "admin",
+			"admin": {
 				"title": "管理员",
-				"permissions": [
+				"actions": [
 					"*"
+				],
+				"inherits": [
+					"manager"
 				]
 			}
-		]
+		}
 	},
 	"methods": {}
 }
