@@ -1,6 +1,6 @@
 {
   "name": "loopback-component-sacl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Loopback SACL integration",
   "license": "MIT",
   "repository": "taoyuan/loopback-component-sacl",
