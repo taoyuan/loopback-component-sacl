@@ -3,6 +3,9 @@
 		"loopback#favicon": {},
 		"loopback#token": {}
 	},
+	"initial": {
+		"loopback-context#per-request": {}
+	},
 	"session": {},
 	"auth": {},
 	"parse": {},
