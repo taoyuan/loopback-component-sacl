@@ -23,8 +23,8 @@
     "bluebird": "^3.4.6",
     "chalk": "^1.1.3",
     "debug": "^2.3.2",
-    "lodash": "^4.16.6",
-    "sacl": "^0.2.8",
+    "lodash": "^4.17.1",
+    "sacl": "^0.2.9",
     "strong-globalize": "^2.8.0"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "coveralls": "^2.11.15",
     "loopback-component-fixtures": "^1.0.2",
     "loopback-context": "taoyuan/loopback-context#feature/cls-hooked-3",
-    "nyc": "^8.4.0",
+    "nyc": "^9.0.1",
     "strong-error-handler": "^1.1.1"
   },
   "xo": {
