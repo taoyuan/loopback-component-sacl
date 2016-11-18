@@ -53,7 +53,7 @@
 			},
 			"manage": "管理商品"
 		},
-		"default-permissions": {
+		"permissions": {
 			"member": [
 				"read"
 			],
@@ -61,9 +61,7 @@
 				"write",
 				"manage"
 			],
-			"admin": [
-				"*"
-			]
+			"admin": "*"
 		}
 	},
 	"methods": {}

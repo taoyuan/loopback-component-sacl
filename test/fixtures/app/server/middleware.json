@@ -4,7 +4,14 @@
 		"loopback#token": {}
 	},
 	"initial": {
-		"loopback-context#per-request": {}
+		"loopback-context#per-request": {},
+		"cors": {
+			"params": {
+				"origin": true,
+				"credentials": true,
+				"maxAge": 86400
+			}
+		}
 	},
 	"session": {},
 	"auth": {},

@@ -2,7 +2,7 @@
 	"id": "admin",
 	"username": "admin",
 	"email": "admin@bitbitgo.com",
-	"password": "password"
+	"password": "admin"
 }, {
 	"id": "generalUser",
 	"username": "generalUser",

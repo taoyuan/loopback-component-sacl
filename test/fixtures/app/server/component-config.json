@@ -5,7 +5,7 @@
 	"../../../../": {
 		"ds": "db",
 		"userModel": "Account",
-		"owners": ["Store"],
+		"groupModels": ["Store"],
 		"rel": "store"
 	},
 	"loopback-component-fixtures": {
@@ -15,5 +15,9 @@
 			"test"
 		],
 		"fixturesPath": "../fixtures/"
+	},
+	"loopback-component-admin": {
+		"mountPath": "/admin",
+		"userModel": "Account"
 	}
 }

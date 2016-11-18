@@ -11,7 +11,7 @@
 		"subjectId": "roleManagerA",
 		"resourceType": "Store",
 		"resourceId": "A",
-		"actions": ["MANAGE"]
+		"actions": ["MANAGE", "PRODUCT:READ", "PRODUCT:MANAGE", "INVOICE:MANAGE"]
 	},
 	{
 		"subjectType": "AclRole",
@@ -32,7 +32,7 @@
 		"subjectId": "roleManagerB",
 		"resourceType": "Store",
 		"resourceId": "B",
-		"actions": ["MANAGE", "PRODUCT:READ", "PRODUCT:MANAGE"]
+		"actions": ["MANAGE", "PRODUCT:READ", "INVOICE:MANAGE"]
 	},
 	{
 		"subjectType": "AclRole",
@@ -40,5 +40,33 @@
 		"resourceType": "Store",
 		"resourceId": "B",
 		"actions": ["MANAGE"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleMemberA",
+		"resourceType": "Invoice",
+		"resourceId": "1",
+		"actions": ["READ"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleMemberA",
+		"resourceType": "Invoice",
+		"resourceId": "3",
+		"actions": ["READ"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleMemberB",
+		"resourceType": "Invoice",
+		"resourceId": "2",
+		"actions": ["READ"]
+	},
+	{
+		"subjectType": "AclRole",
+		"subjectId": "roleMemberB",
+		"resourceType": "Invoice",
+		"resourceId": "4",
+		"actions": ["READ"]
 	}
 ]
