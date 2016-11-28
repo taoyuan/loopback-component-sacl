@@ -1,5 +1,5 @@
 {
-	"name": "Store",
+	"name": "SubStore",
 	"base": "PersistedModel",
 	"idInjection": true,
 	"options": {
@@ -50,26 +50,26 @@
 	],
 	"security": {
 		"actions": {
-			"read": "查看店铺",
+			"read": "查看子店铺",
 			"write": {
-				"title": "编辑店铺",
+				"title": "编辑子店铺",
 				"methods": [
 					"create",
 					"updateAttributes",
 					"upsert"
 				]
 			},
-			"manage": "管理店铺"
+			"manage": "管理子店铺"
 		},
 		"roles": {
 			"member": {
-				"title": "店铺成员",
+				"title": "子店铺成员",
 				"actions": [
 					"read"
 				]
 			},
 			"manager": {
-				"title": "店铺经理",
+				"title": "子店铺经理",
 				"actions": [
 					"write",
 					"manage"
@@ -79,7 +79,7 @@
 				]
 			},
 			"admin": {
-				"title": "店铺管理员",
+				"title": "子店铺管理员",
 				"actions": [
 					"*"
 				],
