@@ -1,9 +1,13 @@
 "use strict";
 
-const test = require('ava');
+const assert = require('chai').assert;
 const s = require('./support');
 const app = require('./fixtures/app/server/server');
 
-test('sacl', t => {
-	t.pass();
+describe('basic', () => {
+
+	it('should work', () => {
+
+		assert.ok(app);
+	});
 });

@@ -5,8 +5,16 @@
 	"../../../../": {
 		"ds": "db",
 		"userModel": "Account",
-		"groupModels": ["Store"],
-		"rel": "store"
+		"rel": "store",
+		"groups": ["Store"],
+		"resources": {
+			"Account": {
+				"rel": "owner"
+			},
+			"Product": {
+				"rowlevel": true
+			}
+		}
 	},
 	"loopback-component-fixtures": {
 		"loadFixturesOnStartup": true,

@@ -18,6 +18,10 @@
 	},
 	"validations": [],
 	"relations": {
+		"members": {
+			"type": "hasMany",
+			"model": "Account"
+		},
 		"invoices": {
 			"type": "hasMany",
 			"model": "Invoice",

@@ -14,7 +14,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "test": "nyc ava -s test/**/*.test.js"
+    "test": "nyc ./node_modules/.bin/mocha test/**/*.test.js"
   },
   "keywords": [
     ""
@@ -29,7 +29,7 @@
     "strong-globalize": "^2.8.0"
   },
   "devDependencies": {
-    "ava": "avajs/ava",
+    "chai": "^3.5.0",
     "cors": "^2.8.1",
     "coveralls": "^2.11.15",
     "loopback": "^2.36.0",
@@ -37,6 +37,7 @@
     "loopback-component-fixtures": "^1.0.2",
     "loopback-context": "taoyuan/loopback-context#feature/cls-hooked-3",
     "loopback-datasource-juggler": "^2.53.0",
+    "mocha": "^3.2.0",
     "nyc": "^10.0.0",
     "strong-error-handler": "^1.1.1"
   },

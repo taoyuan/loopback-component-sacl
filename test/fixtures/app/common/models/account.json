@@ -13,5 +13,11 @@
 			"required": true
 		}
 	},
+	"relations": {
+		"owner": {
+			"type": "belongsTo",
+			"model": "Store"
+		}
+	},
 	"validations": []
 }
